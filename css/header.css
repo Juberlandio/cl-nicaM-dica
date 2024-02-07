@@ -1,0 +1,24 @@
+.cabecalho-bg {
+   background: var(--cor-p3);
+}
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho .logo {
+  width: 135px;
+  height: 67px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.menu a{
+  padding: 20px 30px 20px 30px;
+  cursor: pointer;
+}
