@@ -1,0 +1,24 @@
+.clinica {
+  max-width: 600px;
+  margin: auto;
+}
+.clinica .sobre h2 {
+   padding-top: 24px;
+}
+.clinica .sobre p {
+  padding-top: 24px;
+}
+.vantagens-clinica {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.vantagens-clinica img{
+  padding-top: 0px;
+  width: 167px;
+  height: 210px;
+}
+.texto-clinica {
+  padding-left: 30px;
+}

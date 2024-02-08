@@ -13,7 +13,6 @@ p{
 ul {
   margin: 0px;
   padding: 0px;
-  list-style: none;
 }
 a {   
   font: inherit;
@@ -30,7 +29,7 @@ img {
 	background-color: rgb(35, 38, 41);
 }
 ::-webkit-scrollbar-thumb {
-	background-color: var(--cor-p2);
+	background-color: var(--cor-p3);
   border-radius: 30px;
 }
 ::-webkit-scrollbar-track {

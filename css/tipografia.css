@@ -1,5 +1,6 @@
 .font-1-xxl {
   font: 400 2.06rem/1.06 "Source Sans 3", sans-serif;
+  letter-spacing: 2.7px;
 }
 .font-1-xl {
   font: 600 1.75rem/0.83 "Source Sans 3", sans-serif;

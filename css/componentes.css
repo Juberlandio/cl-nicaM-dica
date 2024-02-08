@@ -1,5 +1,5 @@
 .container {
-  max-width: 1800px;
+  max-width: 1150px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
@@ -8,4 +8,5 @@
 }
 .center {
   margin: auto;
+  text-align: center;
 }
