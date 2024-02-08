@@ -16,14 +16,21 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   list-style: none;
 }
+.menu li{
+  padding: 12px;
+}
 .menu a{
-  padding: 20px 10px 20px 10px;
   cursor: pointer;
   transition: 0.3s;
 }
 .menu a:hover{
   color: var(--cor-p1);
+}
+@media (max-width: 500px) {
+  .cabecalho {
+    justify-content: center;
+    align-items: center;
+  }
 }

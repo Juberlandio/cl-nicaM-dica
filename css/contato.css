@@ -1,0 +1,15 @@
+.contato h2 {
+  padding-top: 54px;
+  padding-bottom: 20px;
+}
+.contato span {
+  font-weight: 600;
+}
+.contato p + p {
+  padding-top: 15px;
+}
+.contato iframe {
+  padding-top: 48px;
+  padding-bottom: 132px;
+  max-width: 100%;
+}

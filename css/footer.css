@@ -1,0 +1,16 @@
+.footer-bg{
+   background: var(--cor-p5);
+   
+}
+.footer .logo img{
+  padding-top: 28px;
+  margin: auto;
+  width: 135px;
+  height: 67px;
+}
+.footer p + p {
+  padding-top: 17px;
+}
+.footer p:last-child {
+  padding-bottom: 44px;
+}
