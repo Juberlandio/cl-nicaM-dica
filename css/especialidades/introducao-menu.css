@@ -1,0 +1,31 @@
+.sub-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+.sub-menu a { 
+  position: relative;
+}
+.introducao-menu .sub-menu a:after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: var(--cor-p1);
+  display: block; 
+  margin-top: 0px;
+  transition: 0.3s;
+  position: absolute;
+}
+.sub-menu a:hover:after {
+  width: 100%;
+}
+.sub-menu li {
+  padding: 10px;
+}
+.introducao-menu .titulo-menu {
+  padding-top: 48px;
+}
