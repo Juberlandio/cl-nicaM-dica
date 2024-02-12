@@ -47,17 +47,10 @@
   height: 452px;
 }
 @media (max-width: 800px) {
-  .ortopedia .tabela-ortopedia img {
+  .ortopedia .tabela-principal img {
     display: none;
   }
-
-  /* Geriatria */
-.ortopedia .tabela-principal .imagem-geriatria {
-  display: none;
-}
-
-/* Fisioterapia */
-.ortopedia .tabela-principal .imagem-fisioterapia {
-  display: none;
+  .ortopedia .tabela-principal .imagem-geriatria, .imagem-fisioterapia{
+    display: none;
 }
 }
