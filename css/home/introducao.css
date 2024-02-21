@@ -3,11 +3,14 @@
   top: 45%;
   left: 27%;
 }
-.introducao img {
+.introducao {
   width: 100%;
   height: 735px;
-  object-fit: cover;
-  object-position: center;
+  width: 100%;
+  background-image: url('/img/recepcao.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .vantagens-clinica h2 {
   padding-bottom: 15px;
