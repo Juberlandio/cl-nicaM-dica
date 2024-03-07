@@ -1,56 +1,56 @@
 .ortopedia h2 {
-   padding-top: 60px;
-   padding-bottom: 30px;
+padding-top: 60px;
+padding-bottom: 30px;
 }
 .ortopedia .tabela-principal {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 0px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 48px;
+display: flex;
+flex-wrap: nowrap;
+gap: 0px;
+justify-content: center;
+align-items: center;
+padding-top: 24px;
+padding-bottom: 48px;
 }
 .ortopedia .tabela-principal img {
-  width: 367px;
-  height: 287px;
+width: 367px;
+height: 287px;
 }
 .ortopedia .tabela-principal table {
-  border-collapse: collapse;
+border-collapse: collapse;
 }
 .ortopedia .tabela-principal thead th {
-  width: 793px;
-  height: 42px;
-  background: var(--cor-p3);
+width: 793px;
+height: 42px;
+background: var(--cor-p3);
 }
 .ortopedia .tabela-principal td, th {
-  width: 793px;
-  height: 82px;
-  padding: 0px;
+width: 793px;
+height: 82px;
+padding: 0px;
 }
 .ortopedia .tabela-principal tr:nth-child(odd) {
-  background: var(--cor-5);
+background: var(--cor-5);
 }
 .ortopedia .tabela-principal tr:nth-child(even) {
-  background: var(--cor-3);
+background: var(--cor-3);
 }
 
 /* Geriatria */
 .ortopedia .tabela-principal .imagem-geriatria {
-  width: 367px;
-  height: 370px;
+width: 367px;
+height: 370px;
 }
 
 /* Fisioterapia */
 .ortopedia .tabela-principal .imagem-fisioterapia {
-  width: 367px;
-  height: 452px;
+width: 367px;
+height: 452px;
 }
 @media (max-width: 800px) {
-  .ortopedia .tabela-principal img {
-    display: none;
-  }
-  .ortopedia .tabela-principal .imagem-geriatria, .imagem-fisioterapia{
-    display: none;
+.ortopedia .tabela-principal img {
+display: none;
+}
+.ortopedia .tabela-principal .imagem-geriatria, .imagem-fisioterapia{
+display: none;
 }
 }
