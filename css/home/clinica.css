@@ -1,28 +1,35 @@
 .clinica .sobre h2 {
-   padding-top: 24px;
+padding-top: 24px;
 }
 .clinica .sobre p {
-  padding-top: 24px;
+padding-top: 24px;
 }
 .vantagens-clinica {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
 }
 .vantagens-clinica img{
-  padding-top: 0px;
-  width: 167px;
-  height: 210px;
+padding-top: 0px;
+width: 167px;
+height: 210px;
 }
 .texto-clinica {
-  padding-left: 30px;
+padding-left: 30px;
+}
+.texto-clinica h2{
+text-align: center;
 }
 @media (max-width: 500px) {
-  .vantagens-clinica img{
-    display: none;
-  }
-  .texto-clinica {
-    padding-top: 40px;
-  }
+.vantagens-clinica img{
+display: none;
+}
+.texto-clinica {
+padding-top: 40px;
+}
+.texto-clinica {
+padding-left: 0px;
+margin: 20px;
+}
 }
