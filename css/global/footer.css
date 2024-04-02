@@ -1,6 +1,9 @@
 .footer-bg{
    background: var(--cor-p5);
 }
+.footer {
+  padding: 20px;
+}
 .footer .logo img{
   padding-top: 28px;
   margin: auto;
