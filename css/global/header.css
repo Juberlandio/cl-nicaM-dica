@@ -19,9 +19,10 @@
   list-style: none;
 }
 .menu li{
-  padding: 12px;
+  padding: 24px 12px;
 }
 .menu a{
+  padding: 24px 12px;
   cursor: pointer;
   transition: 0.3s;
 }
