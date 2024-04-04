@@ -19,10 +19,10 @@ align-items: center;
 list-style: none;
 }
 .menu li{
-padding: 24px 12px;
+padding: 24px 8px;
 }
 .menu li a{
-padding: 24px 12px;
+padding: 24px 8px;
 cursor: pointer;
 transition: 0.3s;
 }
@@ -35,9 +35,9 @@ justify-content: center;
 align-items: center;
 }
 .menu li{
-padding: 24px 8px;
+padding: 24px 5px;
 }
 .menu li a{
-padding: 24px 8px;
+padding: 24px 5px;
 }
 }
