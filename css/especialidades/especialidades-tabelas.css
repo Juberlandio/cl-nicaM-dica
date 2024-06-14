@@ -21,13 +21,12 @@ border-collapse: collapse;
 }
 .ortopedia .tabela-principal thead th {
 width: 793px;
-padding-top: 23px;
-padding-bottom: 23px;
+padding-top: 7px;
+padding-bottom: 7px;
 background: var(--cor-p3);
 }
 .ortopedia .tabela-principal td, th {
 width: 793px;
-padding: 0px;
 padding-top: 30px;
 padding-bottom: 30px;
 }
@@ -41,14 +40,14 @@ background: var(--cor-3);
 /* Geriatria */
 .ortopedia .tabela-principal .imagem-geriatria {
 width: 367px;
-height: 367px;
+height: 374px;
 object-fit: cover;
 }
 
 /* Fisioterapia */
 .ortopedia .tabela-principal .imagem-fisioterapia {
 width: 367px;
-height: 443px;
+height: 458px;
 object-fit: cover;
 }
 @media (max-width: 800px) {
